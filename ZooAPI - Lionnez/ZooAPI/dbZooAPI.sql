@@ -48,7 +48,7 @@ SELECT * FROM tbTipoAnimal;
 SELECT * FROM tbAnimal;
 
 -- Adicionando identificador para conexão
-CREATE USER 'zoo'@'localhost' IDENTIFIED WITH mysql_native_password BY 'rafael0217';
+CREATE USER 'zoo'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345678';
 GRANT ALL PRIVILEGES ON dbzooapi.* TO 'zoo'@'localhost' WITH GRANT OPTION;
 
 -- Excluir banco
