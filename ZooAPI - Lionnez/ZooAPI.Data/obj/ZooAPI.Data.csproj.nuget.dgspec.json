@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Data\\ZooAPI.Data.csproj": {}
+    "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Data\\ZooAPI.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Data\\ZooAPI.Data.csproj": {
+    "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Data\\ZooAPI.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Data\\ZooAPI.Data.csproj",
+        "projectUniqueName": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Data\\ZooAPI.Data.csproj",
         "projectName": "ZooAPI.Data",
-        "projectPath": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Data\\ZooAPI.Data.csproj",
+        "projectPath": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Data\\ZooAPI.Data.csproj",
         "packagesPath": "C:\\Users\\bialp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Data\\obj\\",
+        "outputPath": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bialp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Model\\ZooAPI.Model.csproj": {
-                "projectPath": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Model\\ZooAPI.Model.csproj"
+              "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Model\\ZooAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Model\\ZooAPI.Model.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Model\\ZooAPI.Model.csproj": {
+    "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Model\\ZooAPI.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Model\\ZooAPI.Model.csproj",
+        "projectUniqueName": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Model\\ZooAPI.Model.csproj",
         "projectName": "ZooAPI.Model",
-        "projectPath": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Model\\ZooAPI.Model.csproj",
+        "projectPath": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Model\\ZooAPI.Model.csproj",
         "packagesPath": "C:\\Users\\bialp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Model\\obj\\",
+        "outputPath": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bialp\\AppData\\Roaming\\NuGet\\NuGet.Config",

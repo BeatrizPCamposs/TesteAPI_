@@ -20,3 +20,14 @@ C:\Users\bialp\Desktop\ZooAPI - Copia\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model
 C:\Users\bialp\Desktop\ZooAPI - Copia\ZooAPI.Model\obj\Debug\net7.0\refint\ZooAPI.Model.dll
 C:\Users\bialp\Desktop\ZooAPI - Copia\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model.pdb
 C:\Users\bialp\Desktop\ZooAPI - Copia\ZooAPI.Model\obj\Debug\net7.0\ref\ZooAPI.Model.dll
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\bin\Debug\net7.0\ZooAPI.Model.deps.json
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\bin\Debug\net7.0\ZooAPI.Model.dll
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\bin\Debug\net7.0\ZooAPI.Model.pdb
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model.AssemblyInfoInputs.cache
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model.AssemblyInfo.cs
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model.csproj.CoreCompileInputs.cache
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model.dll
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\refint\ZooAPI.Model.dll
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\ZooAPI.Model.pdb
+C:\Users\bialp\Desktop\GitHub\TesteAPI2\ZooAPI - Lionnez\ZooAPI.Model\obj\Debug\net7.0\ref\ZooAPI.Model.dll

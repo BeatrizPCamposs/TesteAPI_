@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OBli5iahgzAkbjsoWNQqvFranSvTyFYd9dllPlRsni9p6zm3+4VToGem2iYVKunIwFpEf/xx3p0Y/MWCNCmsCA==",
+  "dgSpecHash": "DbxYtiMpZtolImlBLYU5KCo6v8dYM/v8hdFuux7wdLxF8CrA60KLOfm4J59aetwISQu9NE4RuC8NXu6BYbGUkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bialp\\Desktop\\ZooAPI - Copia\\ZooAPI.Data\\ZooAPI.Data.csproj",
+  "projectFilePath": "C:\\Users\\bialp\\Desktop\\GitHub\\TesteAPI2\\ZooAPI - Lionnez\\ZooAPI.Data\\ZooAPI.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bialp\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\bialp\\.nuget\\packages\\dapper\\2.1.15\\dapper.2.1.15.nupkg.sha512",

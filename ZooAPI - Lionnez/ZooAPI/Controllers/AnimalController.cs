@@ -32,6 +32,20 @@ namespace ZooAPI.Controllers
             }
         }
 
+        [HttpGet("ByTipo/{tipoId}")]
+        public async Task<IActionResult> GetAnimaisByTipo(int tipoId)
+        {
+            try
+            {
+                var animais = await _zooRepository.GetAnimaisByTipo(tipoId);
+                return Ok(animais);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAnimalById(int id)
         {
@@ -61,6 +75,46 @@ namespace ZooAPI.Controllers
             try
             {
                 await _zooRepository.InsertAnimal(animal);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateAnimal([FromBody] Animal animal)
+        {
+            if (animal == null)
+                return BadRequest();
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                var success = await _zooRepository.UpdateAnimal(animal);
+                if (!success)
+                    return NotFound();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAnimal(int id)
+        {
+            try
+            {
+                var success = await _zooRepository.DeleteAnimal(id);
+                if (!success)
+                    return NotFound();
+
                 return NoContent();
             }
             catch (Exception ex)

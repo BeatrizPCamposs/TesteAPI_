@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿// TipoAnimalController.cs
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -61,6 +62,23 @@ namespace ZooAPI.Controllers
             try
             {
                 await _zooRepository.InsertTipoAnimal(tipoAnimal);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTipoAnimal(int id)
+        {
+            try
+            {
+                var success = await _zooRepository.DeleteTipoAnimal(id);
+                if (!success)
+                    return NotFound();
+
                 return NoContent();
             }
             catch (Exception ex)
