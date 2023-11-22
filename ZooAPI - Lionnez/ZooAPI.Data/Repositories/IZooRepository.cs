@@ -10,6 +10,7 @@ namespace ZooAPI.Data.Repositories
         Task<IEnumerable<Animal>> GetAllAnimais();
         Task<IEnumerable<Animal>> GetAnimaisByTipo(int tipoId);
         Task<Animal> GetAnimalById(int id);
+        Task<Animal> GetAnimalByNome(string nome);
         Task<bool> InsertAnimal(Animal animal);
         Task<bool> UpdateAnimal(Animal animal);
         Task<bool> DeleteAnimal(int id);

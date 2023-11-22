@@ -35,6 +35,13 @@ namespace ZooAPI.Data.Repositories
             return await db.QueryAsync<Animal>(sql, new { TipoId = tipoId });
         }
 
+        public async Task<Animal> GetAnimalByNome(string nome)
+        {
+            var db = DbConnection();
+            var sql = "SELECT * FROM tbAnimal WHERE nome = @Nome";
+            return await db.QueryFirstOrDefaultAsync<Animal>(sql, new { Nome = nome });
+        }
+
         public async Task<Animal> GetAnimalById(int id)
         {
             var db = DbConnection();

@@ -46,6 +46,24 @@ namespace ZooAPI.Controllers
             }
         }
 
+        [HttpGet("ByNome/{nome}")]
+        public async Task<IActionResult> GetAnimalByNome(string nome)
+        {
+            try
+            {
+                var animal = await _zooRepository.GetAnimalByNome(nome);
+                if (animal == null)
+                    return NotFound();
+
+                return Ok(animal);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAnimalById(int id)
         {
