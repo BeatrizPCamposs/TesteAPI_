@@ -19,5 +19,6 @@ namespace ZooAPI.Model
         public string? Altura { get; set; }
         public string? Curiosidades { get; set; }
         public string? Imagem { get; set; }
+        public string? TipoAnim {  get; set; }
     }
 }
