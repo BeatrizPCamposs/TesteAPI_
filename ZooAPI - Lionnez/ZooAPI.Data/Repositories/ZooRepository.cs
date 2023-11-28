@@ -53,7 +53,7 @@ namespace ZooAPI.Data.Repositories
         {
             var db = DbConnection();
             var sql = "INSERT INTO tbAnimal (nome, tipo_id, descricao, habitat, pais, alimentacao, peso, altura, curiosidades, imagem, tipoanim) " +
-                      "VALUES (@Nome, @TipoId, @Descricao, @Habitat, @Pais, @Alimentacao, @Peso, @Altura, @Curiosidades, @Imagem, @TipoAnim)";
+                      "VALUES (@Nome, @TipoId, @Descricao, @Habitat, @Pais, @Alimentacao, @Peso, @Altura, @Curiosidades, @Imagem, @TipoAnim, @HabitatResum)";
             var result = await db.ExecuteAsync(sql, animal);
             return result > 0;
         }
@@ -63,7 +63,7 @@ namespace ZooAPI.Data.Repositories
             var db = DbConnection();
             var sql = "UPDATE tbAnimal SET nome = @Nome, tipo_id = @TipoId, descricao = @Descricao, habitat = @Habitat, " +
                       "pais = @Pais, alimentacao = @Alimentacao, peso = @Peso, altura = @Altura, " +
-                      "curiosidades = @Curiosidades, imagem = @Imagem, tipoanim = @TipoAnim WHERE id = @Id";
+                      "curiosidades = @Curiosidades, imagem = @Imagem, tipoanim = @TipoAnim, habitatresum = @HabitatResum WHERE id = @Id";
             var result = await db.ExecuteAsync(sql, animal);
             return result > 0;
         }
